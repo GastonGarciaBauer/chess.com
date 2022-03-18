@@ -1,0 +1,69 @@
+:root{
+    --selected: #272522;
+    --letra: #aaaaaa;
+    --backcolor: #3C3936;
+}
+::placeholder{
+    color: rgba(255, 250, 250, 0.301);
+}
+input{
+    outline: none;
+    }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--backcolor);
+}
+header{
+    width: 11%;
+    height: 58.5em;
+    background: var(--selected);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0.7em;
+}
+header a{
+text-decoration: none;
+color: var(--letra);
+font-family: 'Mukta', sans-serif;
+}
+.logo{
+    height: 50px;
+    width: 125px;
+}
+.buscar{
+    height: 2.3em;
+    border-radius: 5%;
+    background: var(--backcolor);
+    border-style: none;
+    padding-left: 0.5em;
+    font-weight: bold;
+}
+.up{
+    height: 50%;
+}
+.down{
+    height: 10%;
+}
+.down a{
+    font-size: 0.9em;
+}
+.logos_chicos{
+    margin-right: 0.5em;
+}
+.problemas{
+justify-content: center;
+align-items: center;
+height: 50px;
+width: 50px;
+background-color: black;
+}
